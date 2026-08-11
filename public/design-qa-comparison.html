@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>City Zero visual comparison</title>
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; color: #eaffff; background: #06131e; font: 12px Arial, sans-serif; }
+      main { display: flex; min-height: 100vh; align-items: center; justify-content: center; gap: 26px; padding: 38px; }
+      figure { margin: 0; }
+      figcaption { margin-bottom: 9px; color: #8fc6c5; font-size: 10px; letter-spacing: 1.6px; text-transform: uppercase; }
+      img, iframe { display: block; width: 393px; height: 852px; overflow: hidden; border: 1px solid rgba(187,255,245,.25); border-radius: 24px; background: #071a27; box-shadow: 0 24px 70px rgba(0,0,0,.45); }
+      img { object-fit: cover; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <figure><figcaption>Source visual truth · 393 × 852</figcaption><img src="/city-day.jpg" alt="Source design" /></figure>
+      <figure><figcaption>Browser implementation · 393 × 852</figcaption><iframe src="/core" title="City Zero core"></iframe></figure>
+    </main>
+  </body>
+</html>
